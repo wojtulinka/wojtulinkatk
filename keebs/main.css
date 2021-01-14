@@ -1,0 +1,144 @@
+/* twitter: @Diamux71 */
+body {
+    background: #131212;
+    background: -moz-linear-gradient(90deg, rgba(19, 18, 18, 1) 0, rgba(48, 42, 42, 1) 50%, rgba(19, 18, 18, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(19, 18, 18, 1) 0, rgba(48, 42, 42, 1) 50%, rgba(19, 18, 18, 1) 100%);
+    background: linear-gradient(90deg, rgba(19, 18, 18, 1) 0, rgba(48, 42, 42, 1) 50%, rgba(19, 18, 18, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#131212", endColorstr="#131212", GradientType=1);
+    background-color: #353434;
+}
+#gradient {
+    background: #131212;
+    background: -moz-linear-gradient(90deg, rgba(19, 18, 18, 1) 0, rgba(48, 42, 42, 1) 50%, rgba(19, 18, 18, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(19, 18, 18, 1) 0, rgba(48, 42, 42, 1) 50%, rgba(19, 18, 18, 1) 100%);
+    background: linear-gradient(90deg, rgba(19, 18, 18, 1) 0, rgba(48, 42, 42, 1) 50%, rgba(19, 18, 18, 1) 100%);
+}
+.back {
+    box-shadow: 8px 8px 35px -1px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: 8px 8px 35px -1px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 8px 8px 35px -1px rgba(0, 0, 0, 0.54);
+    border-radius: 15px;
+    border: 2px solid #252121;
+    text-align: left;
+    background-color: #302a2a;
+    color: #fff;
+    text-shadow: 2px 2px #14171a;
+    font-family: Lato;
+    left: 50%;
+    top: 5%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    padding: 15px;
+    padding-top: 15px;
+    position: absolute;
+    transition: 0.25s cubic-bezier(0.4, -0.75, 0.5, 1.4);
+}
+.text {
+    box-shadow: 8px 8px 35px -1px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: 8px 8px 35px -1px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 8px 8px 35px -1px rgba(0, 0, 0, 0.54);
+    border-radius: 15px;
+    border: 2px solid #252121;
+    text-align: center;
+    background-color: #302a2a;
+    color: #fff;
+    text-shadow: 2px 2px #14171a;
+    font-family: Lato;
+    left: 50%;
+    top: 13%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    padding: 15px;
+    padding-top: 15px;
+    position: absolute;
+    transition: 0.25s cubic-bezier(0.4, -0.75, 0.5, 1.4);
+}
+.text:hover {
+    box-shadow: 7px 8px 35px -1px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: 7px 8px 35px -1px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 7px 8px 35px -1px rgba(0, 0, 0, 0.54);
+    font-size: 65px;
+    border: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+    text-shadow: 2px 2px #141414;
+    cursor: help;
+}
+.skins {
+    border: 2px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    display: block;
+    z-index: 1;
+    width: 50%;
+    transition: 0.25s cubic-bezier(0.4, -0.75, 0.5, 1.4);
+}
+img {
+    width: 100%;
+}
+.skin {
+    width: 50%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 8px 8px 35px -1px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: 8px 8px 35px -1px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 8px 8px 35px -1px rgba(0, 0, 0, 0.54);
+    border-radius: 15px;
+    border: 2px solid #000;
+    background-color: #000;
+    font-family: Lato;
+    font-size: 70px;
+    padding: 5px;
+    display: block;
+    transition: 0.25s cubic-bezier(0.4, -0.75, 0.5, 1.4);
+    font-weight: 500;
+}
+.skin:hover {
+    width: 51%;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 31px;
+}
+.description {
+    text-align: center;
+    color: #fff;
+    position: relative;
+    font-size: 30px;
+}
+footer a {
+    color: #fff !important;
+    text-decoration: none;
+}
+.skin a {
+    text-decoration: none;
+    color: #fff;
+}
+footer {
+    border: 2px solid #252121;
+    background-color: #302a2a;
+    border-radius: 15px;
+    box-shadow: 8px 8px 35px -1px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: 8px 8px 35px -1px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 8px 8px 35px -1px rgba(0, 0, 0, 0.54);
+    font-family: lato;
+    margin-top: 50px;
+    transition: 0.3s;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    clear: both;
+    position: relative;
+    font-size: 30px;
+}
+footer:hover {
+    width: 51%;
+    font-size: 31px;
+}
