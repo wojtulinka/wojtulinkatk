@@ -117,6 +117,23 @@ footer a {
     text-decoration: none;
     color: #fff;
 }
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  z-index: 1
+}
+.image2 {
+  width: 150px !important;
+  height: 150px !important;
+  position: absolute;
+  z-index: 3;
+}
+
 footer {
     border: 2px solid #252121;
     background-color: #302a2a;
